@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
   Jumbotron,
   Container,
+  Col,
 } from "reactstrap";
 
 const Navigation = (props) => {
@@ -26,10 +29,13 @@ const Navigation = (props) => {
         <NavbarBrand href="/">Contact</NavbarBrand>
         <NavbarToggler onClick={toggle} />
       </Navbar>
+
       <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-3">jean-paul susini r.</h1>
-          <p className="lead">En formation développeur web</p>
+          <Col>
+            <h1 className="display-3">Développeur Web junior</h1>
+            <p className="lead">jean-paul susini ravé</p>
+          </Col>
         </Container>
       </Jumbotron>
     </div>

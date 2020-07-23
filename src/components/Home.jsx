@@ -1,18 +1,7 @@
-// import React from "react";
-// import { Jumbotron, Container } from "reactstrap";
-// // import Navigation from "./Navigation";
+import React from "react";
 
-// const Home = (props) => {
-//   return (
-//     <div>
-//       <Jumbotron fluid>
-//         <Container fluid>
-//           <h1 className="display-3">jean-paul susini r.</h1>
-//           <p className="lead">En formation développeur web</p>
-//         </Container>
-//       </Jumbotron>
-//     </div>
-//   );
-// };
+function Home() {
+  return <div></div>;
+}
 
-// export default Home;
+export default Home;
